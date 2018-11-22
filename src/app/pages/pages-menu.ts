@@ -13,6 +13,25 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/iot-dashboard',
   },
   {
+    title: 'Cloud',
+    icon: 'nb-home',
+    link: '/pages/cloud',
+    children: [
+      {
+        title: 'AWS',
+        link: '/pages/cloud/aws',
+      },
+      {
+        title: 'Azure',
+        link: '/pages/cloud/azure',
+      },
+      {
+        title: 'Google',
+        link: '/pages/cloud/google',
+      },
+    ]
+  },
+  {
     title: 'FEATURES',
     group: true,
   },
