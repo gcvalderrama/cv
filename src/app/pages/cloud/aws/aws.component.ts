@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   templateUrl: './aws.component.html',
 })
 export class AWSComponent {
-    
+  cameras: any[] = [{
+    title: 'AWS Solution Architect',
+    source: 'assets/images/solution_architect.png',
+  },{
+    title: 'AWS Developer Associate',
+    source: 'assets/images/aws_developer.png',
+  },];
+
+  
 }

@@ -2,17 +2,21 @@
     Amazon Web Services
 </h2>
 <div class="row">    
-    <div class="col-lg-6">
-        <nb-card>
-            <nb-card-header> Certifications </nb-card-header>
-            <nb-card-body>
-            </nb-card-body>
-        </nb-card>
+    <div class="col-lg-10">
+            <nb-card>
+                    <nb-card-header> Courses </nb-card-header>
+                    <nb-card-body>
+                    </nb-card-body>
+                </nb-card>
     </div>
-    <div class="col-lg-6">
-        <nb-card>
-            <nb-card-header> Courses </nb-card-header>
-            <nb-card-body>
+    <div class="col-lg-2">
+        <nb-card size="xlarge">
+            <nb-card-header> Certifications </nb-card-header>
+            <nb-card-body>                    
+                <div class="col-sm-12" style="text-align: center;" *ngFor="let camera of cameras">                    
+                    <img style="height:150px; width:150px;"
+                        [src]="camera.source" alt="certification">                                                             
+                </div>                     
             </nb-card-body>
         </nb-card>
     </div>

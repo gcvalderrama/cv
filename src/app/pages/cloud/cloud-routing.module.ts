@@ -4,7 +4,6 @@ import { CloudComponent } from './cloud.component';
 import { AWSComponent } from './aws/aws.component'
 import { AzureComponent } from './azure/azure.component'
 import { GoogleComponent } from './google/google.component'
-
 const routes: Routes = [{
   path: '',
   component: CloudComponent,
@@ -37,5 +36,5 @@ export class CloudRoutingModule {
 }
 
 export const routedComponents = [
-    CloudComponent, AWSComponent, AzureComponent, GoogleComponent
+    CloudComponent, AWSComponent, AzureComponent, GoogleComponent 
  ];

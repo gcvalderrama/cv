@@ -14,7 +14,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Cloud',
-    icon: 'nb-home',
+    icon: 'nb-cloudy',    
     link: '/pages/cloud',
     children: [
       {
@@ -22,7 +22,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/cloud/aws',
       },
       {
-        title: 'Azure',
+        title: 'Microsoft',
         link: '/pages/cloud/azure',
       },
       {

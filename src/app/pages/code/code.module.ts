@@ -12,4 +12,4 @@ import { CodeRoutingModule, routedComponents } from './code-routing.module';
     ...routedComponents,
   ],
 })
-export class CloudModule { }
+export class CodeModule { }
