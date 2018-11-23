@@ -23,5 +23,5 @@ export class CodeRoutingModule {
 }
 
 export const routedComponents = [
-    CodeComponent, FunctionsComponent
+    CodeComponent, FunctionsComponent,
  ];

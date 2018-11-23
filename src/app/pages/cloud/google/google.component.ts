@@ -5,6 +5,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./google.component.scss'],
   templateUrl: './google.component.html',
 })
-export class GoogleComponent {
-    
+export class GoogleComponent {   
 }

@@ -6,13 +6,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     icon: 'nb-e-commerce',
     link: '/pages/dashboard',
     home: true,
-  },
-  {
+  }, {
     title: 'IoT Dashboard',
     icon: 'nb-home',
     link: '/pages/iot-dashboard',
-  },
-  {
+  }, {
     title: 'Cloud',
     icon: 'nb-cloudy',    
     link: '/pages/cloud',
@@ -28,8 +26,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Google',
         link: '/pages/cloud/google',
-      },
-    ]
+      }], 
   },
   {
     title: 'FEATURES',

@@ -36,5 +36,5 @@ export class CloudRoutingModule {
 }
 
 export const routedComponents = [
-    CloudComponent, AWSComponent, AzureComponent, GoogleComponent 
+    CloudComponent, AWSComponent, AzureComponent, GoogleComponent, 
  ];
