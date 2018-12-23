@@ -1,0 +1,19 @@
+Building a Front end Pipeline with Nathaniel Schutta
+https://www.youtube.com/watch?v=n-ulmM00K0Q
+
+Agile developer java samples
+http://agiledeveloper.com
+
+Kubernetes
+https://www.youtube.com/watch?v=ZpbXSdzp_vo
+
+12 Factor java
+https://dzone.com/articles/the-12-factor-app-a-java-developers-perspective
+
+Java 8 Language Capabilities, What's in it for you?
+https://www.youtube.com/watch?v=j9nj5dTo54Q
+
+Move towards
+https://www.youtube.com/watch?v=ZO-x6i2REWM
+
+
